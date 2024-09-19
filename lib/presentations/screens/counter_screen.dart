@@ -22,7 +22,7 @@ class _CounterScreenState extends State<CounterScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("$clickCounter", style: const TextStyle(fontSize: 100, fontWeight: FontWeight.w100)),
-            Text(clickCounter > 0 ? "Clicks": "Click", style: const TextStyle( fontSize: 100)),
+            Text(clickCounter > 0 ? "Clicks": "Click", style: const TextStyle( fontSize: 25)),
           ],
         )
       ),
